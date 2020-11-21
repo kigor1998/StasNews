@@ -2,26 +2,44 @@
     background-color: aqua;
 }
 .header-center{
-    padding: 10px;
-    padding-top: 13px;
+    text-align: -webkit-center;
 }
 .logo-wight{
-    width: 20%;
-    height: 20%;
+    width: 75px;
+    height: 75px;
 }
 .header-navi{
-    display: inline-block;
+    text-align:-webkit-center;
+    display: inline-flex;
 }
-.menu-item{
-    display: inline-block;
+.menu-item {
     font-size: 30px;
     padding: 10px 10px 10px 6px;
+    text-decoration: none;
+    color: darkred;
+    display: inline-flex;
+    list-style-type: none;
+}
+a{
     text-decoration: none;
     color: darkred;
 }
 .menu-item:hover{
     background: coral;
     border-radius: 50px;
+}
+.search{
+    display: inline-flex;
+    padding-top: 4%;
+    padding-left: 20px;
+}
+.button{
+    background: #ff0000;
+    font-size: 10px;
+}
+button:hover{
+    background: coral;
+    border-radius: 50%;
 }
 .posts{
     background-color: #d7d579;
