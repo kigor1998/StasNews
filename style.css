@@ -129,3 +129,57 @@
 .main{
     display: inline-flex;
 }
+.footer{
+    display: -webkit-inline-flex;
+}
+
+.container-footer{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    background-color: #346a73;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.logo-footer {
+    width: 100px;
+    height: 50px;
+    margin-top: 7px;
+}
+.logo-footer img {
+    height: 100%;
+    width: auto;
+}
+
+.footer-ul ul{
+    display: inline-flex;
+}
+
+
+.footer-ul ul li{
+    list-style-type: none;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.footer-ul ul li a {
+    color: #f5be18;
+    text-decoration: none;
+    font-family: cursive;
+}
+.location{
+    margin-left: 80px;
+    color: #f5be18;
+    font-size: 15px;}
+
+.archiv ul{
+    padding-inline-start: 0;
+    margin:0;
+    display: none;
+}
+.archiv li:hover ul{
+    display: block;
+}
+
+
